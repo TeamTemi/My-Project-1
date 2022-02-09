@@ -7,7 +7,6 @@
   - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
-  - 
 
 ### My Project 1
 
