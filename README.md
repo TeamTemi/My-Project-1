@@ -1,14 +1,13 @@
 ## Table of contents
-
-- [My Project 1](#my-project-1)
+  - [My Project 1](#my-project-1)
   - [Links](#links)
-  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
+  - 
 
 ### My Project 1
 
@@ -21,21 +20,19 @@ Users should be able to:
 
 Solution Url: (https://github.com/TeamTemi/My-Project-1.git)
 
-### My Process
-
 ## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media queries
 
 ### What I learned
 
 I understood more about the dynamics of CSS flexbox, positioning, layout the structural workings of mobile responsiveness I
 
 ### Continued development
-CSS flexbox, Grid, positions, layout, media queries
-.
+CSS flexbox, Grid, positions, layout, media queries and mobile responsiveness in general!
 
 ### Useful resourses
 
@@ -50,3 +47,4 @@ CSS flexbox, Grid, positions, layout, media queries
 - Github - [@TeamTemi](https://www.github.com/TeamTemi)
 
 ## Acknowledgments
+Grateful to my classmates for their contributions and the tutor for his guidiance.
