@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  background-image: url(./images/Our\ Work\ Background\ Header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.innercontainer {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+}
+
+.design {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designcourse {
+  margin: 20px 0px;
+  font-family: var(--font-family);
+  color: #0078e7;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  width: 30%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svg {
+  display: none;
+}
+
+.ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 10%;
+}
+
+.a_link {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font: 0;
+}
+
+.a_link:hover {
+  border-bottom: 5px solid #0078e7;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+}
+
+.button {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+button {
+  color: white;
+  background-color: #0078e7;
+  padding: 14px 47px;
+  border-radius: 29.5px;
+  border: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.button :hover {
+  color: #0078e7;
+  background: transparent;
+  border: 5px solid #0078e7;
+  font-weight: bolder;
+  transition: ease-in-out 0.1s;
+}
+
+.total {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 72px;
+}
+
+.got {
+  width: 40%;
+  text-align: left;
+  position: relative;
+}
+.got p {
+  color: #717171;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: var(--font-family);
+}
+
+.got h2 {
+  font-weight: bold;
+  font-size: 72px;
+  font-family: var(--font-family);
+  margin-right: -45px;
+  border-right: 1px solid #b4b4b4;
+}
+
+.img {
+  width: 218px;
+  height: 26px;
+  position: absolute;
+  right: 30px;
+  bottom: -5px;
+}
+
+.img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.lorem {
+  width: 60%;
+}
+
+.lorem p {
+  margin: 0px 25px 10px 92px;
+  line-height: 41.5px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: #5a5a5a;
+  padding-left: 50px;
+}
+
+.firstimg {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.firstimg1 {
+  width: 547px;
+  height: 233px;
+  padding-right: 20px;
+}
+
+.firstimg1 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.firstimg2 {
+  width: 271px;
+  height: 233px;
+  padding-right: 20px;
+}
+
+.firstimg2 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.firstimg3 {
+  width: 531px;
+  height: 233px;
+}
+
+.firstimg3 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondimg {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.secondimg1 {
+  width: 381px;
+  height: 233px;
+  padding-right: 20px;
+}
+
+.secondimg1 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondimg2 {
+  width: 434px;
+  height: 233px;
+  padding-right: 20px;
+}
+
+.secondimg2 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondimg3 {
+  width: 531px;
+  height: 233px;
+}
+
+.secondimg3 > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .designcourse h3 {
+    font-size: 23px;
+  }
+
+  .ul a {
+    font-size: 14px;
+  }
+
+  .got p {
+    font-size: 10px;
+  }
+
+  .got h2 {
+    font-size: 50px;
+  }
+
+  .lorem p {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 1439px) {
+  .img > img {
+    display: none; 
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .svg {
+    display: block;
+  }
+
+  .designcourse h3 {
+    font-size: 15px;
+  }
+
+  .navbar,
+  .button {
+    display: none;
+  }
+
+  .innercontainer {
+    height: 10vh;
+  }
+
+  .total {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .total > div {
+    width: 85%;
+  }
+
+  .total > div:first-of-type {
+    border-bottom: 1px solid #b4b4b4;
+    padding-bottom: 20px;
+  }
+
+  .total h2 {
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+  }
+
+  .got {
+    text-align: center;
+  }
+
+  .got h2 {
+    border-right: none;
+    margin-right: -20px;
+  }
+
+  .lorem p {
+    line-height: 20px;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .firstimg1,
+  .firstimg2,
+  .firstimg3,
+  .secondimg1,
+  .secondimg2,
+  .secondimg3 {
+    width: auto;
+    height: auto;
+    padding-right: unset;
+  }
+
+  .firstimg,
+  .secondimg {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .firstimg img,
+  .secondimg img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    width: 80%;
+    margin: 15px auto;
+  }
+}
